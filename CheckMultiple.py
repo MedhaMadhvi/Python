@@ -1,3 +1,4 @@
+#Python program to check whether the given integer is a multiple of both 5 and 7.
 num = int(input("Enter an integer number : "))
 if num % 5 == 0 and num % 7 == 0:
     print(num, " is multiple of both 5 and 7")
