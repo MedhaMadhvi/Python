@@ -1,4 +1,4 @@
-Python program to find the factorial of a number using recursion .
+#Python program to find the factorial of a number using recursion .
 def factorial(n):
    if n == 1:
        return n
