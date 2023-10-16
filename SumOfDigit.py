@@ -1,3 +1,4 @@
+#Python program to find the sum of the digits of an integer using a while loop.
 num = int(input("Enter an integer number : "))
 print("Sum of Digits :", end="")
 sum = 0
