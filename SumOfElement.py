@@ -1,3 +1,4 @@
+#Python program to display the sum of n numbers using a list.
 sum = 0
 list1 = [11, 5, 17, 18, 23]
 for ele in range(0, len(list1)):
