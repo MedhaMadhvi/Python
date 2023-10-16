@@ -1,3 +1,4 @@
+# Python program to find the roots of a quadratic equation.
 import cmath
 a = float(input("Enter first coefficient: "))
 b = float(input("Enter second coefficient: "))
