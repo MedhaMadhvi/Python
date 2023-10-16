@@ -1,3 +1,4 @@
+#Python program to find the product of a set of real numbers.
 num = int(input("Enter number of element in set: "))
 product = 1
 for i in range(num):
