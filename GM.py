@@ -1,6 +1,6 @@
 #Python program to find the geometric mean of n numbers.
 import math
-num = int(input("Enter number of element in set: "))
+num = int(input("Enter number of element in list: "))
 product = 1
 lst = []
 print("Enter numbers:")
