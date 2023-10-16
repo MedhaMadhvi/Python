@@ -12,8 +12,14 @@ def binary_search(list1, n):
         else:
             return mid
     return -1
-list1 = [12, 24, 32, 39, 45, 50, 54]
-n = 45
+n = int(input("Enter number of element in list: "))
+list1 = []
+print("Enter numbers:")
+for i in range(n):
+    L = int(input())
+    list1.append(L)
+n = int(input("Enter number to search in list : "))
+
 result = binary_search(list1, n)
 if result != -1:
     print("Element is present at index", str(result))
