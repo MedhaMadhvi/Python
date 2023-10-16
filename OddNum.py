@@ -1,5 +1,5 @@
 #Python program to find the odd numbers in an array.
-num = int(input("Enter number of element in set: "))
+num = int(input("Enter number of element in list: "))
 lst = []
 print("Enter numbers:")
 for i in range(num):
