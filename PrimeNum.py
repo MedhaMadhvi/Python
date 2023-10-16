@@ -1,3 +1,4 @@
+#Python program to check whether the given integer is a prime number or not .
 num = int(input("Enter an integer number : "))
 m = num
 m = m//2
