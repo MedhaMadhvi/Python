@@ -1,3 +1,4 @@
+#Python program to generate the prime numbers from 1 to N.
 num= int(input("Input the range: "))
 for num in range(2, num+1):
     for i in range(2, num):
