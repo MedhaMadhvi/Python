@@ -1,3 +1,4 @@
+#Python program to find the area of a triangle whose sides are given .
 a = float(input("Enter first side: "))
 b = float(input("Enter second side: "))
 c = float(input("Enter third side: "))
