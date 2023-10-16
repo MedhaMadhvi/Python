@@ -4,11 +4,15 @@ def linear_Search(list1, n, key):
         if (list1[i] == key):
             return i
     return -1
-list1 = [1, 3, 5, 4, 7, 9]
-key = 7
-n = len(list1)
-res = linear_Search(list1, n, key)
-if (res == -1):
+num = int(input("Enter number of element in list: "))
+list1 = []
+print("Enter numbers:")
+for i in range(num):
+    L = int(input())
+    list1.append(L)
+key = int(input("Enter number to search in list : "))
+result = linear_Search(list1, num, key)
+if (result == -1):
     print("Element not found")
 else:
-    print("Element found at index: ", res)
+    print("Element found at index: ", result)
