@@ -1,4 +1,4 @@
-#Python program to implement binary search.
+# Python program to implement binary search.
 def binary_search(list1, n):
     low = 0
     high = len(list1) - 1
