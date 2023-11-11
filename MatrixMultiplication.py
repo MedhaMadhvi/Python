@@ -1,3 +1,4 @@
+#Python program to implement matrix multiplication.
 def matrix_multiplication(matrix1, matrix2):
     if len(matrix1[0]) != len(matrix2):
         return None
