@@ -1,3 +1,4 @@
+#Python program to implement matrix addition.
 def add_matrices(matrix1, matrix2):
 
     if len(matrix1) != len(matrix2) or len(matrix1[0]) != len(matrix2[0]):
